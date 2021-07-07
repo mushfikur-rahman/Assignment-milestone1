@@ -15,6 +15,9 @@ body{
   border-radius: 10px;
     font-size: 23px;
     color:black;
+    width: 30%;
+    text-align: center;
+    margin-left: 30%;
    
   }
   
@@ -123,15 +126,7 @@ he{
             border: solid 0px #CCC;
            
 }
-    
-    
-.footer-design{
-    box-shadow:  10px 20px 30px rgb(180, 175, 175);
-    width:100%;
-    background-color:  #7e4137;
-   text-align: center;
-    border-radius: 20px;
-}
+ 
 .contact-section{
     margin-left: 36%;
     border-radius: 10px;
@@ -142,4 +137,25 @@ he{
  height: 30%;
  
 
+}
+
+    
+.footer-design{
+    box-shadow:  10px 20px 30px rgb(180, 175, 175);
+    width:100%;
+    background-color:  #7e4137;
+   text-align: center;
+    border-radius: 20px;
+}
+.follower{
+    box-shadow:  10px 20px 30px rgb(180, 175, 175);
+    width:80%;
+    background-color:  #fbfbfb;
+   text-align: center;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 5%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 10% ;
 }
