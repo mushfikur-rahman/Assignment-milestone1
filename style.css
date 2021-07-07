@@ -6,7 +6,7 @@ body{
   
   }
   
-.navi{
+.navigation{
    margin-top: 20px;;
    display: flex;
    flex-direction: column;
@@ -25,12 +25,18 @@ body{
 
   h1{
       font-size: 80px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
 }
 h2{
     font-size: 55px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 he{
     font-size: 50;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 .color-text{
     color: orange;
@@ -127,7 +133,25 @@ he{
            
 }
  
-.contact-section{
+.follower{
+    box-shadow:  10px 20px 30px rgb(180, 175, 175);
+    width:80%;
+    background-color:  #fbfbfb;
+   text-align: center;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 5%;
+    height: 130px;
+    margin-left: 10%;
+    margin-top: 10%
+ ;
+}
+.follower2{
+    align-items: center;
+    margin-left: 15%;
+   font-size: 2.1vh;
+   }
+   .contact-section{
     margin-left: 36%;
     border-radius: 10px;
     background-image: linear-gradient(salmon,rgb(83, 42, 8));
@@ -138,24 +162,11 @@ he{
  
 
 }
-
-    
+       
 .footer-design{
     box-shadow:  10px 20px 30px rgb(180, 175, 175);
     width:100%;
     background-color:  #7e4137;
    text-align: center;
     border-radius: 20px;
-}
-.follower{
-    box-shadow:  10px 20px 30px rgb(180, 175, 175);
-    width:80%;
-    background-color:  #fbfbfb;
-   text-align: center;
-    border-radius: 20px;
-    display: flex;
-    margin-bottom: 5%;
-    height: 100px;
-    margin-left: 10%;
-    margin-top: 10% ;
 }
